@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+
+	<string name="walking_header1">After leaving Waverley by the Princes St Exit:</string>
+	
+	<string name="walking_paragraph1">Turn right along Princes St at the top of the stairs exiting Waverley</string>
+	<string name="walking_paragraph2">Turn right onto North Bridge</string>
+	<string name="walking_paragraph3">Continue for around half a mile</string>
+	<string name="walking_paragraph4">Turn right at Nicholson Square</string>
+	<string name="walking_paragraph5">Continue into Marshall St</string>
+	<string name="walking_paragraph6">Turn left onto Chapel St</string>
+	<string name="walking_paragraph7">Turn right onto Crichton St</string>
+	<string name="walking_paragraph8">The Forum will be located on the right, an image of it is provided below.</string>
+	
+	<string name="buswaverley_header1">To get from Waverley Station to the bus stop:</string>
+	
+	<string name="buswaverley_paragraph1">Leave Waverley by the Princes St exit</string>
+	<string name="buswaverley_paragraph2">Turn right at the top of the stairs</string>
+	<string name="buswaverley_paragraph3">Turn right onto North Bridge</string>
+	<string name="buswaverley_paragraph4">The bus stop is on the opposite side of the road on North Bridge</string>
+	<string name="buswaverley_paragraph5">Take the X48 bus</string>
+	<string name="buswaverley_paragraph6">Get off at the Surgeons Hall stop, just after Nicholson Square</string>
+	<string name="buswaverley_paragraph7">Cross the road and continue down Nicholson St in the same direction as the bus was travelling</string>
+	<string name="buswaverley_paragraph8">Turn right down West Nicolson St</string>
+	<string name="buswaverley_paragraph9">Continue along to the end of the street and turn right onto Chapel St</string>
+	<string name="buswaverley_paragraph10">Turn left onto Crichton St</string>
+	<string name="buswaverley_paragraph11">Continue down the street and the forum will be on the corner at the next right turn, a picture of the forum is provided below:</string>
+	
+	<string name="busairport_header1">"To get from Edinburgh Airport to the bus stop and on to the forum:"</string>
+	
+	<string name="busairport_paragraph1">There is a bus provided just outside the airport terminal, take this bus to the stop at Waverley Bridge</string>
+	<string name="busairport_paragraph2">Walk back the way the bus came and turn right onto Princes St</string>
+	<string name="busairport_paragraph3">Continue down Princes St until you see North Bridge on the right, turn onto it</string>
+	<string name="busairport_paragraph4">The bus stop is on the opposite side of the road on North Bridge</string>
+	<string name="busairport_paragraph5">Take the X48 bus</string>
+	<string name="busairport_paragraph6">Get off at the Surgeons Hall stop, just after Nicholson Square</string>
+	<string name="busairport_paragraph7">Cross the road and continue down Nicholson St in the same direction as the bus was travelling</string>
+	<string name="busairport_paragraph8">Turn right down West Nicolson St</string>
+	<string name="busairport_paragraph9">Continue along to the end of the street and turn right onto Chapel St</string>
+	<string name="busairport_paragraph10">Turn left onto Crichton St</string>
+	<string name="busairport_paragraph11">Continue down the street and the forum will be on the corner at the next right turn, a picture of the forum is provided below:</string>
+	
+	<string name="taxi_header1">A taxi can be called using either one of the following numbers:</string>
+	
+	<string name="taxi_paragraph1">City Cabs- </string>
+	<string name="taxi_paragraph2">Edinburgh Taxis- </string>
+	<string name="taxi_paragraph3">The address to travel to is:</string>
+	<string name="taxi_paragraph4">11 Crichton Street</string>
+	<string name="taxi_paragraph5">Edinburgh</string>
+	<string name="taxi_paragraph6">EH8 9AB</string>
+	
+	<string name="taxi_link1">0131 228 1211</string>
+	<string name="taxi_link2">0131 610 1234</string>
+	
+</resources>

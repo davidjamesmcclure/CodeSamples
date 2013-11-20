@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:layout_width="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall" android:id="@+id/CoffeePostcode"
+		android:layout_height="wrap_content" android:text="Postcode"
+		android:layout_below="@+id/CoffeeAddress" android:layout_alignLeft="@+id/CoffeeAddress"></TextView>
+	<TextView android:id="@+id/CoffeeName" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium"
+		android:text="Name" android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true"></TextView>
+	<TextView android:id="@+id/CoffeeAddress"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:text="Address" android:layout_below="@+id/CoffeeName"
+		android:layout_alignParentLeft="true"></TextView>
+	<TextView android:id="@+id/CoffeePhone" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="Phone"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_alignParentTop="true" android:layout_alignParentRight="true"></TextView>
+	<TextView android:id="@+id/Rating" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="Rating"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_alignBaseline="@+id/textView3"
+		android:layout_alignBottom="@+id/textView3" android:layout_toLeftOf="@+id/textView3"></TextView>
+	<TextView android:id="@+id/textView1" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="Rating: "
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_alignBaseline="@+id/Rating" android:layout_alignBottom="@+id/Rating"
+		android:layout_toLeftOf="@+id/Rating"></TextView>
+	<TextView android:id="@+id/textView3" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="/10"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_below="@+id/CoffeePhone"
+		android:layout_alignParentRight="true"></TextView>
+	<TextView android:layout_height="wrap_content" android:text="Distance"
+		android:id="@+id/Distance" android:layout_width="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_below="@+id/CoffeePostcode"
+		android:layout_alignParentLeft="true"></TextView>
+	<TextView android:layout_height="wrap_content" android:text="Website" android:id="@+id/CoffeeWebsite" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_below="@+id/Distance" android:layout_alignParentLeft="true"></TextView>
+	<TextView android:layout_height="wrap_content" android:text=" away" android:id="@+id/DistanceTitle" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_above="@+id/CoffeeWebsite" android:layout_toRightOf="@+id/Distance"></TextView>
+
+</RelativeLayout>

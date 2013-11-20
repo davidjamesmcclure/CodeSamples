@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+
+	<string name="info_header1">Currency</string>
+	<string name="info_header2">Phone Numbers</string>
+	<string name="info_header3">Taxis</string>
+	<string name="info_header4">Directory Enquiries</string>
+	<string name="info_header5">Travel</string>
+	<string name="info_header6">Power Sockets</string>
+	
+	<string name="info_paragraph1">Scotland uses the pound sterling, conversion rates can be found at:</string>
+	<string name="info_paragraph2">The number for emergency services is 999,</string>
+	<string name="info_paragraph3">City Cabs-</string>
+	<string name="info_paragraph4">Edinburgh Taxis-</string>
+	<string name="info_paragraph5"> (BT),</string>
+	<string name="info_paragraph6"> (Conduit) or </string>
+	<string name="info_paragraph7"> (The Number)</string>
+	<string name="info_paragraph8">It should be noted, however, that directory enquiries services can be expensive.</string>
+	<string name="info_paragraph9">Local buses in Edinburgh (those that do not leave the city) all cost £1.30, regardless of the route they take. Bus timetables can be found at </string>
+	<string name="info_paragraph10">Scotland uses 3 pin plugs at 240V AC. </string>
+	
+	<string name="info_link1">http://www.exchangerates.org.uk/</string>
+	<string name="info_link2">0131 228 1211</string>
+	<string name="info_link3">0131 610 1234</string>
+	<string name="info_link4">118 500</string>
+	<string name="info_link5">118 888</string>
+	<string name="info_link6">118 118</string>
+	<string name="info_link7">http://lothianbuses.com/</string>
+
+</resources>

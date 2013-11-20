@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<ImageView android:src="@drawable/edinburghcrest"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:id="@+id/EdUniCrest" android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true"></ImageView>
+	<TextView android:layout_height="wrap_content" android:id="@+id/banner"
+		android:text="Edit Information" android:textColor="#FFFFFF"
+		android:gravity="center" android:textSize="20dp" android:layout_width="wrap_content"
+		android:layout_alignParentTop="true" android:layout_toRightOf="@+id/EdUniCrest"
+		android:layout_alignParentRight="true" android:layout_alignBottom="@+id/EdUniCrest"
+		android:background="#25476C"></TextView>
+	<EditText android:layout_width="wrap_content" android:id="@+id/editCoffeeAddress"
+		android:inputType="textPersonName" android:layout_height="wrap_content"
+		android:hint="Address" android:imeOptions="actionNext"
+		android:layout_below="@+id/editCoffeeName" android:layout_alignLeft="@+id/editCoffeeName"
+		android:layout_alignRight="@+id/editCoffeeName"></EditText>
+	<EditText android:layout_width="270dp" android:id="@+id/editCoffeeName"
+		android:inputType="textPersonName" android:layout_height="wrap_content"
+		android:hint="Name" android:imeOptions="actionNext"
+		android:layout_below="@+id/EdUniCrest" android:layout_alignParentLeft="true"
+		android:layout_marginLeft="21dp" android:layout_marginTop="38dp"></EditText>
+	<EditText android:layout_width="135dp" android:id="@+id/editCoffeePostcode"
+		android:hint="Postcode" android:imeOptions="actionNext"
+		android:inputType="textPersonName" android:layout_height="wrap_content"
+		android:layout_below="@+id/editCoffeeAddress"
+		android:layout_alignLeft="@+id/editCoffeeAddress"></EditText>
+	<EditText android:layout_width="135dp" android:id="@+id/editCoffeePhone"
+		android:inputType="phone" android:layout_height="wrap_content"
+		android:hint="Phone No." android:imeOptions="actionNext"
+		android:layout_alignTop="@+id/editCoffeePostcode"
+		android:layout_toRightOf="@+id/editCoffeePostcode"
+		android:layout_alignBottom="@+id/editCoffeePostcode"></EditText>
+	<EditText android:layout_width="wrap_content" android:id="@+id/editCoffeeWebsite"
+		android:inputType="textEmailAddress" android:layout_height="wrap_content"
+		android:hint="Website" android:imeOptions="actionNext"
+		android:layout_below="@+id/editDistance" android:layout_alignLeft="@+id/editDistance"
+		android:layout_marginTop="24dp" android:layout_alignRight="@+id/editCoffeeAddress"></EditText>
+	<TextView android:layout_width="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:id="@+id/textView1" android:layout_height="wrap_content"
+		android:text="Select walking distance." android:layout_below="@+id/editCoffeePostcode"
+		android:layout_alignLeft="@+id/editCoffeePostcode"></TextView>
+	<Spinner android:id="@+id/editDistance" android:entries="@array/DistanceList"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_below="@+id/textView1" android:layout_marginTop="15dp"
+		android:layout_alignRight="@+id/editCoffeeAddress"
+		android:layout_alignLeft="@+id/textView1"></Spinner>
+	<Button android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="Save"
+		android:id="@+id/coffee_edit_button" android:layout_alignParentBottom="true"
+		android:layout_toRightOf="@+id/editCoffeePostcode"
+		android:layout_marginBottom="36dp" android:layout_alignRight="@+id/editCoffeeWebsite"></Button>
+	<Spinner android:layout_width="wrap_content" android:id="@+id/editRating"
+		android:layout_height="wrap_content" android:layout_below="@+id/editCoffeeWebsite"
+		android:layout_alignRight="@+id/editCoffeeWebsite" android:entries="@array/RatingList"></Spinner>
+	<TextView android:layout_height="wrap_content" android:text="Rating?" android:id="@+id/textView2" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_alignBaseline="@+id/editRating" android:layout_alignBottom="@+id/editRating" android:layout_centerHorizontal="true"></TextView>
+
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<ImageView android:src="@drawable/edinburghcrest"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:id="@+id/EdUniCrest" android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true"></ImageView>
+	<TextView android:layout_height="wrap_content" android:id="@+id/banner"
+		android:text="The Informatics Forum Guide" android:textColor="#FFFFFF"
+		android:gravity="center" android:textSize="20dp" android:layout_width="wrap_content"
+		android:layout_alignParentTop="true" android:layout_toRightOf="@+id/EdUniCrest"
+		android:layout_alignParentRight="true" android:layout_alignBottom="@+id/EdUniCrest"
+		android:background="#25476C"></TextView>
+
+	<ImageButton android:background="#FFFFFF"
+		android:layout_height="wrap_content" android:src="@drawable/foodicon"
+		android:layout_width="wrap_content" android:id="@+id/buttonFood"
+		android:layout_below="@+id/banner" android:layout_alignParentRight="true"
+		android:layout_marginRight="24dp" android:layout_marginTop="46dp"></ImageButton>
+
+	<ImageButton android:background="#FFFFFF"
+		android:layout_height="wrap_content" android:src="@drawable/directionsicon"
+		android:layout_width="wrap_content" android:id="@+id/buttonDirections"
+		android:layout_below="@+id/banner" android:layout_alignParentLeft="true"
+		android:layout_marginLeft="24dp" android:layout_marginTop="46dp"></ImageButton>
+
+	<ImageButton android:background="#FFFFFF"
+		android:layout_height="wrap_content" android:src="@drawable/hotelicon"
+		android:layout_width="wrap_content" android:id="@+id/buttonHotels"
+		android:layout_below="@+id/textDirections" android:layout_alignLeft="@+id/textDirections"
+		android:layout_marginTop="19dp"></ImageButton>
+
+	<ImageButton android:background="#FFFFFF"
+		android:layout_height="wrap_content" android:src="@drawable/informationicon"
+		android:layout_width="wrap_content" android:id="@+id/buttonInfo"
+		android:layout_alignTop="@+id/buttonHotels" android:layout_alignLeft="@+id/textFood"></ImageButton>
+
+
+	<TextView android:layout_width="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:id="@+id/textFood" android:layout_height="wrap_content"
+		android:text="Food and Drinks" android:layout_below="@+id/buttonFood"
+		android:layout_alignLeft="@+id/buttonFood" android:layout_marginTop="25dp"></TextView>
+
+	<TextView android:layout_width="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:id="@+id/textDirections" android:layout_height="wrap_content"
+		android:text="Directions" android:layout_alignBaseline="@+id/textFood"
+		android:layout_alignBottom="@+id/textFood" android:layout_alignLeft="@+id/buttonDirections"></TextView>
+
+	<TextView android:layout_width="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:id="@+id/textHotels" android:layout_height="wrap_content"
+		android:text="Hotels" android:layout_below="@+id/buttonHotels"
+		android:layout_alignLeft="@+id/buttonHotels" android:layout_marginTop="25dp"></TextView>
+
+	<TextView android:layout_width="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:id="@+id/textInfo" android:layout_height="wrap_content"
+		android:text="Visitor Information" android:layout_alignBaseline="@+id/textHotels"
+		android:layout_alignBottom="@+id/textHotels" android:layout_alignLeft="@+id/buttonInfo"></TextView>
+
+
+</RelativeLayout>

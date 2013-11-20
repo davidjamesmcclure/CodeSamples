@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:id="@+id/dinnerAddress"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:text="Address" android:layout_below="@+id/dinnerName"
+		android:layout_alignParentLeft="true"></TextView>
+	<TextView android:id="@+id/dinnerPostcode"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:text="Postcode" android:layout_below="@+id/dinnerAddress"
+		android:layout_alignParentLeft="true"></TextView>
+	<TextView android:id="@+id/dinnerPhone" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall"
+		android:text="Phone" android:layout_below="@+id/dinnerPostcode"
+		android:layout_alignParentLeft="true"></TextView>
+	<TextView android:id="@+id/dinnerName" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium"
+		android:text="Name" android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true"></TextView>
+	<TextView android:id="@+id/textView2" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall"
+		android:text=" away" android:layout_below="@+id/dinnerBookable"
+		android:layout_alignParentRight="true"></TextView>
+	<TextView android:id="@+id/Distance" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall"
+		android:text="Distance" android:layout_alignBaseline="@+id/textView2"
+		android:layout_alignBottom="@+id/textView2" android:layout_toLeftOf="@+id/textView2"></TextView>
+	<TextView android:id="@+id/dinnerCuisine"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:text="Cuisine" android:layout_below="@+id/textView2"
+		android:layout_alignParentRight="true"></TextView>
+	<TextView android:id="@+id/textView3" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall"
+		android:text="Cuisine:" android:layout_alignBaseline="@+id/dinnerCuisine"
+		android:layout_alignBottom="@+id/dinnerCuisine"
+		android:layout_toLeftOf="@+id/dinnerCuisine"></TextView>
+	<TextView android:id="@+id/textView1" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall"
+		android:text="Bookable:" android:layout_above="@+id/Distance"
+		android:layout_toLeftOf="@+id/dinnerBookable"></TextView>
+	<TextView android:id="@+id/dinnerBookable"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:text="Yes/No" android:layout_below="@+id/dinnerName"
+		android:layout_alignParentRight="true"></TextView>
+	<TextView android:id="@+id/textView3" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="/10"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_alignBaseline="@+id/Rating" android:layout_alignBottom="@+id/Rating"
+		android:layout_toRightOf="@+id/Rating"></TextView>
+	<TextView android:id="@+id/Rating" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="TextView"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_alignBaseline="@+id/textView4"
+		android:layout_alignBottom="@+id/textView4" android:layout_toRightOf="@+id/textView4"></TextView>
+	<TextView android:id="@+id/textView4" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="Rating: "
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_below="@+id/dinnerPhone"
+		android:layout_alignParentLeft="true"></TextView>
+	<TextView android:id="@+id/dinnerWebsite"
+		android:layout_height="wrap_content" android:layout_width="160dp"
+		android:text="Website" android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_below="@+id/textView3" android:layout_alignParentRight="true"
+		android:layout_alignParentLeft="true"></TextView>
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:layout_width="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall" android:id="@+id/hotelPostcode"
+		android:layout_height="wrap_content" android:text="Postcode"
+		android:layout_below="@+id/hotelAddress"
+		android:layout_alignParentRight="true"></TextView>
+	<TextView android:layout_width="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:id="@+id/hotelName" android:layout_height="wrap_content"
+		android:text="Name" android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true" android:layout_marginTop="5dp"></TextView>
+	<TextView android:layout_width="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall" android:id="@+id/textView2"
+		android:layout_height="wrap_content" android:text=" away"
+		android:layout_alignBaseline="@+id/Distance"
+		android:layout_alignBottom="@+id/Distance" android:layout_toRightOf="@+id/Distance"></TextView>
+	<TextView android:layout_width="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall" android:id="@+id/hotelAddress"
+		android:layout_height="wrap_content" android:text="Address"
+		android:layout_below="@+id/hotelName" android:layout_alignParentRight="true"></TextView>
+	<TextView android:id="@+id/hotelPhone" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="Phone"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_below="@+id/hotelPostcode"
+		android:layout_alignParentRight="true"></TextView>
+	<TextView android:id="@+id/Rating" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="TextView"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_alignBaseline="@+id/textView2"
+		android:layout_alignBottom="@+id/textView2" android:layout_toRightOf="@+id/textView2"></TextView>
+	<TextView android:id="@+id/textView3" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="/10"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_alignBaseline="@+id/Rating" android:layout_alignBottom="@+id/Rating"
+		android:layout_toRightOf="@+id/Rating"></TextView>
+	<TextView android:id="@+id/Distance" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="Distance"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_above="@+id/hotelPostcode"
+		android:layout_alignParentLeft="true"></TextView>
+	<TextView android:id="@+id/textView2" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="Rating: "
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_below="@+id/Distance" android:layout_alignParentLeft="true"></TextView>
+	<TextView android:id="@+id/hotelWebsite"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:text="Website" android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_below="@+id/hotelPhone" android:layout_alignParentLeft="true"></TextView>
+
+</RelativeLayout>

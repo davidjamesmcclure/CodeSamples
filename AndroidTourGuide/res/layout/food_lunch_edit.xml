@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<ImageView android:src="@drawable/edinburghcrest"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:id="@+id/EdUniCrest" android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true"></ImageView>
+
+	<TextView android:layout_height="wrap_content" android:id="@+id/banner"
+		android:text="Edit Information" android:textColor="#FFFFFF"
+		android:gravity="center" android:textSize="20dp" android:layout_width="wrap_content"
+		android:layout_alignParentTop="true" android:layout_toRightOf="@+id/EdUniCrest"
+		android:layout_alignParentRight="true" android:layout_alignBottom="@+id/EdUniCrest"
+		android:background="#25476C"></TextView>
+
+	<EditText android:layout_width="wrap_content" android:id="@+id/editLunchAddress"
+		android:inputType="textPersonName" android:layout_height="wrap_content"
+		android:hint="Address" android:imeOptions="actionNext"
+		android:layout_below="@+id/editLunchName" android:layout_alignLeft="@+id/editLunchName"
+		android:layout_alignRight="@+id/editLunchName"></EditText>
+
+	<EditText android:layout_width="270dp" android:id="@+id/editLunchName"
+		android:inputType="textPersonName" android:layout_height="wrap_content"
+		android:hint="Name" android:imeOptions="actionNext"
+		android:layout_below="@+id/EdUniCrest" android:layout_alignParentLeft="true"
+		android:layout_marginLeft="21dp" android:layout_marginTop="38dp"></EditText>
+
+	<EditText android:layout_width="135dp" android:id="@+id/editLunchPostcode"
+		android:hint="Postcode" android:imeOptions="actionNext"
+		android:inputType="textPersonName" android:layout_height="wrap_content"
+		android:layout_below="@+id/editLunchAddress" android:layout_alignLeft="@+id/editLunchAddress"></EditText>
+
+	<EditText android:layout_width="135dp" android:id="@+id/editLunchPhone"
+		android:inputType="phone" android:layout_height="wrap_content"
+		android:hint="Phone No." android:imeOptions="actionNext"
+		android:layout_alignTop="@+id/editLunchPostcode"
+		android:layout_toRightOf="@+id/editLunchPostcode"
+		android:layout_alignBottom="@+id/editLunchPostcode"></EditText>
+	<Button android:id="@+id/lunch_edit_button"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:text="Save" android:layout_alignParentBottom="true"
+		android:layout_alignRight="@+id/editLunchPhone"
+		android:layout_marginBottom="26dp" android:layout_alignLeft="@+id/editLunchWebsite"></Button>
+	<EditText android:layout_width="wrap_content"
+		android:inputType="textPersonName" android:layout_height="wrap_content"
+		android:id="@+id/editLunchCuisine" android:hint="Cuisine"
+		android:imeOptions="actionNext" android:layout_below="@+id/editLunchPostcode"
+		android:layout_toLeftOf="@+id/editLunchPhone"
+		android:layout_alignLeft="@+id/editLunchPostcode">
+		<requestFocus></requestFocus>
+	</EditText>
+	<EditText android:layout_width="wrap_content"
+		android:inputType="textEmailAddress" android:layout_height="wrap_content"
+		android:id="@+id/editLunchWebsite" android:hint="Website"
+		android:imeOptions="actionNext" android:layout_below="@+id/editLunchPostcode"
+		android:layout_toRightOf="@+id/editLunchPostcode"
+		android:layout_alignRight="@+id/editLunchPhone"></EditText>
+	<TextView android:layout_width="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:id="@+id/textView2" android:layout_height="wrap_content"
+		android:text="Walking Distance?" android:layout_alignBaseline="@+id/textView1"
+		android:layout_alignBottom="@+id/textView1" android:layout_alignLeft="@+id/editDistance"></TextView>
+	<Spinner android:layout_width="wrap_content" android:entries="@array/spinnerBookable"
+		android:id="@+id/editBookable" android:layout_height="wrap_content"
+		android:layout_below="@+id/editLunchCuisine" android:layout_alignLeft="@+id/editLunchCuisine"
+		android:layout_marginTop="65dp" android:layout_alignRight="@+id/editLunchCuisine"></Spinner>
+	<TextView android:id="@+id/textView1" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="Bookable?"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_below="@+id/editLunchCuisine" android:layout_alignLeft="@+id/editLunchCuisine"
+		android:layout_marginTop="20dp"></TextView>
+	<Spinner android:layout_width="wrap_content" android:entries="@array/DistanceList"
+		android:id="@+id/editDistance" android:layout_height="wrap_content"
+		android:layout_alignTop="@+id/editBookable" android:layout_toRightOf="@+id/editBookable"
+		android:layout_alignRight="@+id/editLunchAddress"></Spinner>
+	<Spinner android:layout_width="wrap_content" android:entries="@array/RatingList"
+		android:id="@+id/editRating" android:layout_height="wrap_content"
+		android:layout_above="@+id/lunch_edit_button"
+		android:layout_toRightOf="@+id/textView1"></Spinner>
+	<TextView android:id="@+id/textView3" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="Rating? "
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_alignBaseline="@+id/editRating"
+		android:layout_alignBottom="@+id/editRating" android:layout_alignLeft="@+id/editBookable"></TextView>
+
+
+</RelativeLayout>
